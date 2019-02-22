@@ -17,6 +17,21 @@
     body {
       margin: 0;
     }
+    #map_container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 100%;
+      margin-bottom: -44%;
+    }
+
+    #map {
+      position: absolute;
+      width: 100%;
+      height: 56%;
+    }
+    #team {
+      /* margin-top: 150px; */
+    }
   </style>
 
   <!-- Bootstrap core CSS -->
@@ -228,6 +243,23 @@
       </div>
     </div>
   </section>
+
+
+<section class="bg-light" id="smallie">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading text-uppercase">StuCo Intro!</h2>
+      <h3 class="section-subheading text-muted">SMASH.</h3>
+    </div>
+  </div>
+  <div id="map_container">
+    <div>
+      <iframe id="map"
+    src="https://www.youtube.com/embed/YGp6RpmXWfw">
+    </iframe>
+    </div>
+  </div>
+</section>
 
   <!-- About -->
   <!-- <section id="about">
